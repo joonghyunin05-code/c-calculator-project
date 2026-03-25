@@ -1,0 +1,8 @@
+services:
+  c-calculator:
+    image: ghcr.io/joonghyunin05-code/c-calculator-project:latest
+    container_name: c-calculator-prod
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
